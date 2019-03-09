@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+}
+
+body {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background: #D1BA74;
+}
+
+#code-wrapper {
+	height: 100vh;
+	overflow: hidden;
+	font-family: monospace;
+	white-space: pre;
+}
+
+body .container {
+    max-width: 280px;
+    padding: 0;
+    margin: 0 auto;
+    /* min-height: 400px; */
+}
+
+.preview-wrapper{
+	margin:0;
+	color:#444;
+	position: absolute;
+    height: 250px;
+    width: 180px;
+    top: calc(28% - (180px / 2));
+    left: calc(70% - (180px / 2));
+    z-index:1;
+}
