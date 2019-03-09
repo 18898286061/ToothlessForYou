@@ -540,19 +540,8 @@
     text-transform:uppercase;
     -webkit-text-stroke:2px #ae1e13;
     text-shadow:0px 5px 2px #181c1b;
-}
 
-.author{
-    bottom:40px;
-    color:#181c1b;
-    font-size:18px;
-    position:fixed;
-    text-decoration:none;
-    transition:all .4s ease-in-out 0s;
-}
-
-.background .author:hover{
-    color:#fff;
+    /* Ok, this toothless is for you */
 }`
 
     writeCode('', code)

@@ -33,3 +33,16 @@ body .container {
     left: calc(70% - (180px / 2));
     z-index:1;
 }
+
+.author{
+    bottom:40px;
+    color:#181c1b;
+    font-size:18px;
+    position:fixed;
+    text-decoration:none;
+    transition:all .4s ease-in-out 0s;
+}
+
+.author:hover{
+	color:#fff;
+}
